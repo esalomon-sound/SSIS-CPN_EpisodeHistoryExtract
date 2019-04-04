@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/4/2019 9:11:53 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="SND-2609"
+  DTS:CreatorName="SOUND\esalomon"
+  DTS:DTSID="{6327F700-DAAB-4A4A-A9F8-20EC2267DB0F}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0800.60"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{3BA46E1F-4087-443E-81B2-4C10BE01A660}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>
