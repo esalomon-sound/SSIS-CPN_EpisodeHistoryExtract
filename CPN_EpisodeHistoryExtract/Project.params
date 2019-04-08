@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <SSIS:Parameters xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
   <SSIS:Parameter
     SSIS:Name="DatabaseServer">
@@ -37,7 +37,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:SharedSSIS\CPN_EpisodeHistoryExtract</SSIS:Property>
+        SSIS:Name="Value">C:\SharedSSIS\CPN_EpisodeHistoryExtract\</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -58,7 +58,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\SharedSSIS\CPN_EpisodeHistoryExtract\DummyTransfer</SSIS:Property>
+        SSIS:Name="Value">C:\SharedSSIS\CPN_EpisodeHistoryExtract\DummyTransfer\</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -101,6 +101,48 @@
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Value">SP_CPNEEpisodeHistory</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="StartDate">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{3e8dda24-c12d-4a48-b760-bffcb76f9728}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">1/1/2019</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="WorkDirectory">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{bf498182-0e80-429b-9955-79f7cdcfa095}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">C:\SharedSSIS\CPN_EpisodeHistoryExtract\Work\</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
