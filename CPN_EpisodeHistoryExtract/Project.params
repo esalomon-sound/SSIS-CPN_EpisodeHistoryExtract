@@ -37,7 +37,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">D:\files\SharedSSIS\CPN_EpisodeHistoryExtract\</SSIS:Property>
+        SSIS:Name="Value">\\PV-DB08\files\SharedSSIS\CPN_EpisodeHistoryExtract\</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -58,7 +58,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">D:\files\SharedSSIS\CPN_EpisodeHistoryExtract\Transfer\</SSIS:Property>
+        SSIS:Name="Value">\\PV-DB08\files\SharedSSIS\CPN_EpisodeHistoryExtract\Transfer\</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -142,7 +142,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">D:\files\SharedSSIS\CPN_EpisodeHistoryExtract\</SSIS:Property>
+        SSIS:Name="Value">\\PV-DB08\files\SharedSSIS\CPN_EpisodeHistoryExtract\Work\</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -163,7 +163,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\Users\admesalomon\AppData\Local\GnuPG\bin</SSIS:Property>
+        SSIS:Name="Value">C:\Program Files (x86)\gnupg\bin</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -226,7 +226,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\Users\admesalomon\AppData\Local\WinSCP\</SSIS:Property>
+        SSIS:Name="Value">C:\Program Files (x86)\WinSCP</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -268,7 +268,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">D:\files\SharedSSIS\CPN_EpisodeHistoryExtract\Archive</SSIS:Property>
+        SSIS:Name="Value">\\PV-DB08\files\SharedSSIS\CPN_EpisodeHistoryExtract\Archive</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
